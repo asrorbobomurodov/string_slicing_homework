@@ -7,4 +7,6 @@ def main(s,n):
     Returns:
         str: answer
     """
-    return
+    return f'"{s[0:n]}"'
+print(main("Asror", 3))
+print(main("positive", 2))

@@ -8,4 +8,6 @@ def main(s,n,k):
     Returns:
         str: answer
     """
-    return
+    return f'"{s[n:k]}"'
+print(main("codeschooluz",2,5))
+print(main("apple",2,2))

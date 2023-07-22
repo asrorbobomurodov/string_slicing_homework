@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    return f'"{s[::2]}"'
+print(main("codeschooluz"))
+print(main("apple"))

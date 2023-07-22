@@ -6,4 +6,6 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    return f'"{s[-4:]}"'
+print(main("Asror"))
+print(main("python"))
